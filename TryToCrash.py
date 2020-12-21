@@ -1,4 +1,12 @@
 # coding:utf-8
+"""
+import sys
+scripts_path = 'y:/scripts/unreal'
+if not scripts_path in sys.path:
+    sys.path.insert(0, scripts_path)
+from TryToCrash import *
+"""
+
 import maya.cmds as cmds
 import maya.mel as mel
 import re
